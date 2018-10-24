@@ -1,0 +1,76 @@
+.desafio {
+  height: 100px;
+  width: 150px;
+  margin: 50px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@keyframes animar2 {
+  0% {
+    transform:  rotate(180deg);
+  }
+
+  100% {
+    transform:  rotate(0deg);
+  }
+}
+
+.animar2 {
+  font-size: 400px;
+  margin: 10px;
+  animation-name: animar2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: reverse;
+}
+
+.animar3 {
+  position: absolute;
+  top: 270px;
+  left: 500px;
+  font-size: 200px;
+  margin: 10px;
+  animation-name: animar2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.animar4 {
+  font-size: 150px;
+  margin: 10px;
+  animation-name: animar2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.animar5 {
+  position: absolute;
+  top: 450px;
+  left: 200px;
+  font-size: 300px;
+  margin: 10px;
+  animation-name: animar2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: reverse;
+}
+
+.animar6 {
+  position: absolute;
+  top: 600px;
+  left: 600px;
+  font-size: 300px;
+  font-size: 100px;
+  margin: 10px;
+  animation-name: animar2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
